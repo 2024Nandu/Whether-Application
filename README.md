@@ -158,9 +158,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📧 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
-
-Project Link: [https://github.com/yourusername/midnight-weather](https://github.com/yourusername/midnight-weather)
+Project Link: [https://github.com/yourusername/midnight-weather](https://github.com/2024Nandu/Whether-Application)
 
 ## 🚦 Future Enhancements
 
@@ -172,3 +170,4 @@ Project Link: [https://github.com/yourusername/midnight-weather](https://github.
 - [ ] Weather widgets for home screen
 - [ ] PWA support for offline usage
 - [ ] More detailed weather metrics
+
