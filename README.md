@@ -33,7 +33,7 @@ A beautiful, responsive weather application with dark/light theme support, anima
 
 ## 🚀 Live Demo
 
-[View Live Demo](https://your-demo-link.netlify.app) *(Replace with your actual demo link)*
+[View Live Demo](https://whether-application-mu.vercel.app/)
 
 ## 🛠️ Technologies Used
 
@@ -170,5 +170,6 @@ Project Link: [https://github.com/2024Nandu/Whether-Application](https://github.
 - [ ] Weather widgets for home screen
 - [ ] PWA support for offline usage
 - [ ] More detailed weather metrics
+
 
 
