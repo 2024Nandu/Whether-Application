@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Midnight Weather · Mobile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+    <div class="animated-bg">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="theme-toggle" id="themeToggle">
+        <span class="toggle-icon" id="toggleIcon">🌙</span>
+        <span id="toggleLabel">Dark</span>
+    </div>
+
+    <div class="refresh-hint" id="refreshHint">↓ Pull to refresh</div>
+
+    <div class="top-nav">
+        <div class="search-container">
+            <input type="text" placeholder="Search city..." id="cityInput" enterkeyhint="search">
+        </div>
+        <button class="location-btn" id="getLocation">
+            <span>📍</span> Use My Location
+        </button>
+    </div>
+
+    <main class="main-display">
+        <div class="location-info">
+            <h1 id="cityName">Loading...</h1>
+            <p id="dateTime" style="color: var(--accent-blue); font-weight: 400; font-size: 0.9rem;"></p>
+            <div class="current-weather">
+                <span class="big-temp" id="temp">--°</span>
+                <div>
+                    <img id="weatherIcon" class="weather-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="weather icon">
+                    <p id="description" style="font-size: 1.4rem; text-transform: capitalize;">Clear Sky</p>
+                    <p id="feelsLike" style="opacity: 0.6; font-size: 0.9rem;">Feels like: --°</p>
+                </div>
+            </div>
+            <div class="sun-times" id="sunTimes"></div>
+        </div>
+
+        <div class="stats-panel">
+            <div class="stat-item"><span>Wind</span><b id="wind">-- m/s</b></div>
+            <div class="stat-item"><span>Humidity</span><b id="humidity">--%</b></div>
+            <div class="stat-item"><span>Visibility</span><b id="visibility">-- km</b></div>
+            <div class="stat-item"><span>Pressure</span><b id="pressure">-- hPa</b></div>
+        </div>
+    </main>
+
+    <div class="additional-cards" id="additionalCards"></div>
+
+    <div class="forecast-bar" id="forecastBar">
+    </div>
+
+    <div id="loadingOverlay" class="loading-overlay" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
